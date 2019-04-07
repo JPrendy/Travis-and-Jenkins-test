@@ -2,7 +2,12 @@ language: node_js
 node_js:
   - "7"
 install:
- - npm install --save-dev mocha
- - npm install --save-dev chai
+#  - npm install --save-dev mocha
+#  - npm install --save-dev chai
+- npm install --save-dev jest
+# /// reasons for --save-dev /////
+# --save-dev is used to save the package for development purpose. Example: unit tests, minification..
+# --save is used to save the package required for the application to run
+#  "Can I still use the package in production if it is under --save-dev," is "no.
 script:
  - npm run test

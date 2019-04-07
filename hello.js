@@ -1,7 +1,8 @@
 module.exports = {
-    sayHello: function(){
-      return 'hello';
-    }
-}
+  sayHello: function() {
+    return "hello";
+  }
+};
+
 
 console.log("okay3");
