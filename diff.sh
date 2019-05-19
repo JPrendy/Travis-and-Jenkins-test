@@ -2,7 +2,7 @@
 
 #the following would be bin/sh in the jenkins file
 set -x
-variable=$(git diff origin/master... | grep "Support/");
+variable=$(git diff origin/master... | grep "/Support/");
 if [ -z "$variable" ]; then
      echo "changes were not made in the Support Directory"
 else
