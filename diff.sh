@@ -1,4 +1,6 @@
 #!/bin/bash
+
+#the following would be bin/sh in the jenkins file
 set -x
 variable=$(git diff origin/master... | grep "README");
 if [ -z "$variable" ]; then
