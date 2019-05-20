@@ -1,4 +1,3 @@
-# travis_test
+# Travis and Jenkins Test
 
-
-The following is a test that uses travis CI
+The following is a test that uses Travis and Jenkins CI
