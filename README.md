@@ -6,7 +6,6 @@ The following is a test that uses Travis and Jenkins CI
 import java.text.SimpleDateFormat
 import org.apache.commons.lang.StringUtils
 
-
 timestamps {
 
 node () {
