@@ -7,7 +7,6 @@ import java.text.SimpleDateFormat
 import org.apache.commons.lang.StringUtils
 
 timestamps {
-
 node () {
 
 	stage ('Github test 2 - Checkout') {
